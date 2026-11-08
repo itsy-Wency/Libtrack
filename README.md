@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📚 LibTrack
+# LibTrack
 
 ### A calmer, clearer way to manage your library.
 
@@ -22,7 +22,7 @@
 
 LibTrack is a library-management application for exploring a book catalog, managing borrowing requests, and reviewing library activity. Admins can also monitor application health and operational metrics.
 
-## ✨ Features
+## Features
 
 | Area | What you can do |
 | --- | --- |
@@ -31,7 +31,7 @@ LibTrack is a library-management application for exploring a book catalog, manag
 | Library operations | Manage books, categories, users, and activity |
 | System health | View availability, request volume, errors, active users, and storage |
 
-## 🚀 Run locally with Laragon and MySQL
+## Run locally with Laragon and MySQL
 
 ### Requirements
 
@@ -107,7 +107,7 @@ composer run dev
 
 Open [http://localhost:8000](http://localhost:8000). `composer run dev` starts the Laravel web server, queue listener, and Vite development server. Keep that terminal open while using the app.
 
-## 🔐 Demo accounts
+## Demo accounts
 
 All seeded demo accounts use the password `password`.
 
@@ -119,7 +119,7 @@ All seeded demo accounts use the password `password`.
 
 Change or remove demo credentials before using the application in a shared or production environment.
 
-## 📈 System monitoring
+## System monitoring
 
 The admin dashboard displays web, database, and storage health alongside uptime and downtime estimates, requests per minute, error rate, active users, and storage capacity.
 
@@ -131,7 +131,7 @@ php artisan schedule:work
 
 The health checker requests `APP_URL/up`. Keep `APP_URL` set to an address that the local app can reach. Uptime and downtime are estimates based on recorded checks; missing checks reduce monitoring coverage and are not counted as downtime.
 
-## 🧰 Useful commands
+## Useful commands
 
 ```powershell
 php artisan route:list
@@ -142,6 +142,6 @@ npm run build
 
 <div align="center">
 
-Made for libraries and the people who love them. 🌿
+MeowMeow
 
 </div>
